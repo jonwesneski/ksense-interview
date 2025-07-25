@@ -1,0 +1,16 @@
+{
+  "name": "ksense-interview",
+  "version": "1.0.0",
+  "description": "ksense interview",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --env-file=.env -r ts-node/register test.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

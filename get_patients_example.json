@@ -1,0 +1,39 @@
+{
+  "data": [
+    {
+      "patient_id": "DEMO001",
+      "name": "TestPatient, John",
+      "age": 45,
+      "gender": "M",
+      "blood_pressure": "120/80",
+      "temperature": 98.6,
+      "visit_date": "2024-01-15",
+      "diagnosis": "Sample_Hypertension",
+      "medications": "DemoMed_A 10mg, TestDrug_B 500mg"
+    },
+    {
+      "patient_id": "DEMO002",
+      "name": "AssessmentUser, Jane",
+      "age": 67,
+      "gender": "F",
+      "blood_pressure": "140/90",
+      "temperature": 99.2,
+      "visit_date": "2024-01-16",
+      "diagnosis": "Eval_Diabetes",
+      "medications": "FakeMed 1000mg"
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "limit": 5,
+    "total": 50,
+    "totalPages": 10,
+    "hasNext": true,
+    "hasPrevious": false
+  },
+  "metadata": {
+    "timestamp": "2025-07-15T23:01:05.059Z",
+    "version": "v1.0",
+    "requestId": "123"
+  }
+}
